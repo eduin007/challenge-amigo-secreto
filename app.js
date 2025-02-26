@@ -18,7 +18,7 @@ function agregarAmigo(){
 function mostrarLista() {
     let lista = document.getElementById("listaAmigos");
 
-    lista.innerHTML = ""; // Limpiar la lista existente para evitar duplicados
+    lista.innerHTML = ""; 
 
     for (let i = 0; i < amigos.length; i++) {
         let elemento = document.createElement("li");
